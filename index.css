@@ -1,0 +1,129 @@
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        background: #f4f6f8;
+        color: #333;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 50px 20px;
+        min-height: 100vh;
+    }
+
+    form {
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 40px;
+    }
+
+    form h3 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #2c3e50;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 12px 15px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        transition: border 0.3s ease;
+    }
+
+    input:focus {
+        border-color: #007BFF;
+        outline: none;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    table {
+        width: 90%;
+        max-width: 800px;
+        background-color: #fff;
+        border-collapse: collapse;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    th, td {
+        padding: 15px;
+        text-align: center;
+    }
+
+    thead {
+        background-color: #007BFF;
+        color: white;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tbody tr:hover {
+        background-color: #e6f0ff;
+    }
+
+    td button {
+        padding: 8px 12px;
+        margin: 0 4px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.2s ease;
+    }
+
+    td .update {
+        background-color: #28a745;
+        color: white;
+    }
+
+    td .update:hover {
+        background-color: #218838;
+    }
+
+    td .delete {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    td .delete:hover {
+        background-color: #c82333;
+    }
+
+    #msg {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #28a745;
+    }
